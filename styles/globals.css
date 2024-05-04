@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: JTMarnie,-apple-system,  sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: JTMarnie;
+  src: url("/font/JTMarnie-Medium.otf");
+  font-display: block;
+}
+
+
+@import url("./custom.css");
